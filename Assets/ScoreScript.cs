@@ -19,5 +19,8 @@ public class ScoreScript : MonoBehaviour
     public void gameOver(){
         gameOverScreen.SetActive(true);
     }
+    public void startGame(){
+        SceneManager.LoadScene("SampleScene");
+    }
     
 }
